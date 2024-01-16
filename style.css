@@ -1,0 +1,36 @@
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    margin-top:50px ;
+    border: 1px solid rgba(3, 3, 3, 0.1);
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.con1{
+    display: flex;
+    gap: 100px;
+}
+.con1 .con2 p{
+    
+}
+img{
+    width: 120px;
+    height: 90px;
+    padding: 30px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: rgb(243, 63, 63);
+    box-shadow: 4px 2px 8px black;
+}
